@@ -20,4 +20,4 @@ In output I got the metrics as,
 - **Adversarial Loss** - 1.086
 - **Identity Loss** - 0.0206
 
-![spectra](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-GAN/Results/output.png)
+![output](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-GAN/Results/output.png)
