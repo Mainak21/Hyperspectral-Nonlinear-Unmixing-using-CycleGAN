@@ -8,7 +8,7 @@ The endmembers can be represented in an image with only pure pixels. These image
 ## Linear Unmixing
 Hyperspectral unmixing can be done in different linear methods. In this project, I have used **Pixel Purity Index (PPI)** algorithm to find the spectral signatures, and applied Fully Constrained Least Squares **(FCLS)** method which follows linear mixing model to estimate the abundance maps.
 
-![spectra](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-CycleGAN/Results/Urban_spectralProfile.png)
+![spectra](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-CycleGAN/blob/master/Results/Urban_spectralProfile.png)
 
 ## Nonlinear Unmixing
 This project is generally focused on Nonlinear Unmixing methods. So, here I have a Deep Learning Generative Adversarial Network **CycleGAN**. Here FCLS method is taken as baseline for abundance maps to train the model and get the outputs in nonlinear way as CycleGAN follows nonlinearity with activation function ReLU & LeakyReLU. It has two generators and two discriminators. First GAN does the unmixing and the second GAN does mixing to get back the real images.
@@ -20,4 +20,4 @@ In output I got the metrics as,
 - **Adversarial Loss** - 1.086
 - **Identity Loss** - 0.0206
 
-![output](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-CycleGAN/Results/output.png)
+![output](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-CycleGAN/blob/master/Results/output.png)
