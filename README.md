@@ -21,3 +21,9 @@ In output I got the metrics as,
 - **Identity Loss** - 0.0206
 
 ![output](https://github.com/Mainak21/Hyperspectral-Nonlinear-Unmixing-using-CycleGAN/blob/master/Results/output.png)
+
+# Reference Papers
+1. Hyperspectral Nonlinear Unmixing via Generative Adversarial Network - https://ieeexplore.ieee.org/document/9324087
+2. Nonlinear Unmixing of Hyperspectral Images: Models and Algorithms - https://ieeexplore.ieee.org/document/6678284
+3. Nonlinear Unmixing of Hyperspectral Images Using a Generalized Bilinear Model - https://ieeexplore.ieee.org/document/5702384
+4. A Multilinear Mixing Model for Nonlinear Spectral Unmixing - https://ieeexplore.ieee.org/document/7172521
